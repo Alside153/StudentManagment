@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+            
+            <title>Create Student</title>
+            
+            <link rel="stylesheet" href="style.css"
+        </head>
+    </head>
+    <body>
+
+        <form border = "1">
+            
+                <table class= "container">
+                    <br/><br/><br/>
+                    <tr>
+                        <td class= "PageTitle">New Student:</td>
+                    </tr>
+                    <tr>
+                        <td>FullName:</td><td class = "inputs"><input type="text" id="Name"></input></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td><td class = "inputs"><input type="email" id="Email"></input></td>
+                    </tr>
+                    <tr>
+                        <td>Faculty:</td><td class = "inputs"><input type="text" id="Faculty"></input></td>
+                    </tr>
+                    <tr>
+                        <td>Birthday:</td><td><input type="date" id="Birthday"></input></td>
+                    </tr>
+                    <tr align="center">
+                        <td><input type=button value="Back" onclick="backToMain()"></td>
+                        
+                        <td><input type=button value="Save" onclick="createStudent()"></td>
+                    </tr>
+                </table>
+                <br/>
+                <!-- <div align="center">
+                    <input type=button value="Back" onclick="backToMain()">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type=button value="Save" onclick="createStudent()">
+                </div> -->
+            
+
+        </form>
+        <script type="text/javascript" src="Script.js"></script>
+    </body>
+</html>

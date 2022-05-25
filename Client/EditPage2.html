@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <head>
+            <style>
+                body{
+                    padding: 10;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border: 2px solid black;
+                    width: 275;
+                    height: 250;
+                }
+            </style>
+            
+            <title>Student Info</title>
+            
+            <link rel="stylesheet" href="style.css"
+        </head>
+    </head>
+    <body onload="setStudent()">
+        <form>
+            
+            <table  class= "container">
+
+                <tr>
+                    <td>FullName:</td><td><input type="text" id="Name"></input></td>
+                </tr>
+                <tr>
+                    <td>Email:</td><td><input type="email" id="Email"></input></td>
+                </tr>
+                <tr>
+                    <td>Faculty:</td><td><input type="text" id="Faculty"></input></td>
+                </tr>
+                <tr>
+                    <td>Birthday:</td><td><input type="date" id="Birthday"></input></td>
+                </tr>
+            </table>
+            <div align="center" >
+                <br/>
+                <!-- <input type=button value="Grades" onclick="backToMain()">&nbsp;&nbsp;&nbsp;&nbsp; -->
+                <input type=button value="Save" onclick="editStudent()">&nbsp;&nbsp;&nbsp;&nbsp;
+                <!-- <input type=button value="Delete" onclick="backToMain()">&nbsp;&nbsp;&nbsp;&nbsp; -->
+                <input type=button value="Back" onclick="backToMain()">
+            </div>
+        </form>
+        <script type="text/javascript" src="Script.js"></script>
+    </body>
+</html>
